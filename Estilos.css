@@ -7,6 +7,25 @@
     padding: 0;
   
   }
+
+ 
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 100px;
+    right: 30px;
+    
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+    
+  }
 h3{
   padding-bottom: 30px;
 }
@@ -515,7 +534,7 @@ padding-bottom: 20px;
   border: black; width: 100%;
 }
 .contenedor-index-gale{
-  height: 1000px;padding:25px; margin-top:-50px; background-color: rgb(0, 0, 0); font-family: 'bold',sans-serif; font-weight: bold;
+  height: 1000px; margin-top:-50px; background-color: rgb(0, 0, 0); font-family: 'bold',sans-serif; font-weight: bold;
 }
 /* Create four equal columns that sits next to each other */
 .column {
@@ -617,7 +636,7 @@ select {
    /*Contacto*/
   
   .contenedor-index-form{
-    height: 700px;padding:25px; margin-top:-50px; background-color: rgb(13, 13, 13); font-family: 'bold',sans-serif; font-weight: bold;
+  width:100%;  height: 700px; margin-top:-50px; background-color: rgb(13, 13, 13); font-family: 'bold',sans-serif; font-weight: bold;
   }
   
    .formulario{
