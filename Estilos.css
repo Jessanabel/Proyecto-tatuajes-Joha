@@ -82,8 +82,8 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   
   /*cada espacio del carousel*/
 .carousel-item{
-    height: 700px;
-    min-height: 300px;
+    /* height: 700px;
+    min-height: 300px; */
     background: no-repeat center center scroll;
    background-image:  rgba(0,0, 0, 0.5);
     -webkit-background-size:cover;
@@ -169,7 +169,7 @@ letter-spacing: 2px;
   background-color: black;
 }
 .contenedor-index-about{
-  height: 1000px;padding:25px; margin-top:-50px; background-color: rgb(0, 0, 0); font-family: 'bold',sans-serif; font-weight: bold;
+   background-color: rgb(0, 0, 0); font-family: 'bold',sans-serif; font-weight: bold;
 
 }
 .container-about{
@@ -261,7 +261,7 @@ body {font-family: "bold", Cambria, Cochin, Georgia, Times, 'Times New Roman', s
     
 }
 .contenedor-index-art{
-  height: 1000px;padding:25px; margin-top:-50px; background-color: rgb(13, 13, 13); font-family: 'bold',sans-serif; font-weight: bold;
+  padding:25px;  background-color: rgb(13, 13, 13); font-family: 'bold',sans-serif; font-weight: bold;
 }
 .text{
   text-align: center;
@@ -307,11 +307,11 @@ margin-right: 40px;
   width: 20%;
 
 }
-.card-img-top{
+/* .card-img-top{
   height: 300px;
   
   width: 230px;
-}
+} */
 
 
 /*card-body*/
@@ -650,7 +650,7 @@ select {
 
 .sign-up{
   background-color: #000000;
-  height:500px;
+  /* height:500px; */
 }
 .list-info-footer{
 color:rgb(129, 127, 127);
@@ -659,14 +659,14 @@ color:rgb(129, 127, 127);
   color:rgb(165, 162, 162);
 }
 .footer-title{
-  font-family: 'Oswald',sans-serif;font-size: 30px; margin-top:30px; color:white; padding-right:200px;
+  font-family: 'Oswald',sans-serif;font-size: 30px; color:white;
 }
 .content {
     background-color: #EAEDF0;
     height:1000px;
 }
 .container-enlaces{
-  margin-left:580px; margin-top:30px;
+  margin-top:30px;
 }
 .imagen-gato {
   width:30% ; margin-left:940px; margin-top:-265px;
@@ -706,10 +706,10 @@ h2{
 
 .title2{
   
-  margin-left:565px; margin-top:-300px;font-family: 'Oswald',sans-serif; font-size: 30px; color:white;
+  font-family: 'Oswald',sans-serif; font-size: 30px; color:white;
 }
 .title-section{
-  margin-left: 300px; margin-top:-90px;text-align: center; padding: 30px; width: 50%; font-family: sans-serif; color: #07080a;background-color:white;
+  text-align: center; padding: 30px; width: 50%; font-family: sans-serif; color: #07080a;background-color:white;
 }
 
 .textpie{
@@ -718,11 +718,11 @@ h2{
   font-size: 14px;
   text-align: center;
   padding:20px;
-  margin-left: -190px;
+  /* margin-left: -190px; */
   
 }
 .separator{
-  margin-top: -30px;margin-bottom:0px;background-color: #252424;width: 70%;height: 1px; margin-left:160px;
+  margin-bottom:0px;background-color: #252424;width: 100%;height: 1px;
 }
 /*fin de pie*/
 
