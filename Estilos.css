@@ -534,7 +534,7 @@ padding-bottom: 20px;
   border: black; width: 100%;
 }
 .contenedor-index-gale{
-  height: 1000px; margin-top:-50px; background-color: rgb(0, 0, 0); font-family: 'bold',sans-serif; font-weight: bold;
+  background-color: rgb(0, 0, 0); font-family: 'bold',sans-serif; font-weight: bold;
 }
 /* Create four equal columns that sits next to each other */
 .column {
