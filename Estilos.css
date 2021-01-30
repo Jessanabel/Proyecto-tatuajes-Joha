@@ -670,7 +670,9 @@ select {
    }
   
 
-
+#formFileMultiple{
+ color:rgb(255, 255, 255);
+}
  
  /*-----seccion piepagina----*/
 
@@ -683,7 +685,7 @@ select {
 color:rgb(129, 127, 127);
 }
 .parrafo-footer{
-  color:rgb(165, 162, 162);
+  color:rgb(165, 162, 162);color:rgb(122, 120, 120); font-size:18px; margin-left:10px;
 }
 .footer-title{
   font-family: 'Oswald',sans-serif;font-size: 30px; color:white;
@@ -710,9 +712,7 @@ color:rgb(129, 127, 127);
 .title-5{
   padding:3px 0 2px 10px;  border-left: 4px solid #d218b9; line-height: 1;font-weight: 700;    letter-spacing: 3px;font-size: 25px; margin-top:10px;
 }
-.desc{
-  padding:3px 0 2px 10px;  margin-right:100px;  border-left: 4px solid #d218b9; line-height: 1;font-weight: 700;    letter-spacing: 3px; font-size: 30px;margin-top:10px;
-}
+
 .content {
     background-color: #EAEDF0;
     height:1000px;
@@ -825,8 +825,12 @@ h2{
     text-align: center;
     color:rgb(240, 232, 232);
 }
-
-
+.col-lg-3 .col-md-6 .kendra-redes{
+  margin-top: 10px; margin-right:300px;
+}
+.titulo-2{
+  padding:3px 0 2px 10px;  margin-right:100px;  border-left: 4px solid #d218b9; line-height: 1;font-weight: 700;    letter-spacing: 3px; font-size: 30px;margin-top:10px;
+}
 .title2{
   
   font-family: 'Oswald',sans-serif; font-size: 30px; color:white;
