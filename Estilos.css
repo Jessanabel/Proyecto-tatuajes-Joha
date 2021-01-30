@@ -843,6 +843,26 @@ h2{
   color: #07080A;
   background-color: white;
 }
+.title-section-preg {
+  text-align: center;
+  padding: 30px 10px;
+  width: 100%;
+  font-family: sans-serif;
+  color: #07080A;
+  background-color: white;
+  margin-top:-18px;
+}
+
+.title-section-art {
+  text-align: center;
+  padding: 30px 10px;
+  width: 100%;
+  font-family: sans-serif;
+  color: #07080A;
+  background-color: white;
+  margin-top:-50px;
+  margin-bottom: 50px;
+}
 
 .textpie{
   color:rgb(107, 100, 100);
