@@ -386,58 +386,19 @@
 
     
   </div>-->
-  <style>
-    .accordion {
-      background-color: rgb(24, 23, 23);
-      color: rgb(114, 110, 110);
-      cursor: pointer;
-      padding: 18px;
-      width: 70%;
-      border: none;
-      text-align: left;
-      outline: none;
-      font-size: 15px;
-      transition: 0.4s;
-      margin-left:200px;
-      
-    }
-    
-    .active, .accordion:hover {
-      background-color: #ccc; 
-      color: black;
-    }
-    
-    .panel {
-      padding: 10px ;
-      display: none;
-      background-color: rgb(0, 0, 0);
-      overflow: hidden;
-      color:rgb(131, 130, 130);
-      width: 70%;
-      margin-left:200px;
-    }
-    .accordion:after {
-  content: '\02795'; /* Unicode character for "plus" sign (+) */
-  font-size: 13px;
-  color: #777;
-  float: right;
-  margin-left: 5px;
-}
-
-.active:after {
-  content: "\2796"; /* Unicode character for "minus" sign (-) */
-}
-    </style>
-    </head>
-    <body>
+ 
+    <div class="row">
+    <div class="col-md-12 col-sm-12">
     
     <h2>Accordion</h2>
     
     <button class="accordion">¿CUÁNTO CUESTA UN TATUAJE?</button>
+   
     <div class="panel">
+     
       <p>El precio del tatuaje varía en función del tamaño y del diseño. Se envían presupuestos por mail,  y por teléfono..</p>
     </div>
-    
+  
     <button class="accordion">¿QUÉ CUIDADOS TENGO QUE TENER LUEGO DE HACERME UN TATTOO?</button>
     <div class="panel">
       <p>Mantener el vendaje durante 4 horas
@@ -473,8 +434,10 @@
     
     <button class="accordion">¿CÓMO DEBO HACER SI SOY MENOR DE 18 AÑOS?</button>
     <div class="panel">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <p>Los menores de 18 años que quieran hacerce un tattoo o piercing, deberan venir acompañados por alguno de sus padres, y todos con DNI, para firmar la autorización correspondiente.</p>
     </div>
+  </div>
+</div>
     <script>
     var acc = document.getElementsByClassName("accordion");
     var i;
