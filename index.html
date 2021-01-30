@@ -313,7 +313,7 @@
   </div>
   <!-- fin seccion counter-->
 
-  <!--  seccion preguntas-->
+  <!--  seccion preguntas
   <div data-bs-spy="scroll" id="Preg" class="contenedor-index-preg"  >
 
     
@@ -385,7 +385,113 @@
 
 
     
-  </div>
+  </div>-->
+  <style>
+    .accordion {
+      background-color: rgb(24, 23, 23);
+      color: rgb(114, 110, 110);
+      cursor: pointer;
+      padding: 18px;
+      width: 70%;
+      border: none;
+      text-align: left;
+      outline: none;
+      font-size: 15px;
+      transition: 0.4s;
+      margin-left:200px;
+      
+    }
+    
+    .active, .accordion:hover {
+      background-color: #ccc; 
+      color: black;
+    }
+    
+    .panel {
+      padding: 10px ;
+      display: none;
+      background-color: rgb(0, 0, 0);
+      overflow: hidden;
+      color:rgb(131, 130, 130);
+      width: 70%;
+      margin-left:200px;
+    }
+    .accordion:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+    </style>
+    </head>
+    <body>
+    
+    <h2>Accordion</h2>
+    
+    <button class="accordion">¿CUÁNTO CUESTA UN TATUAJE?</button>
+    <div class="panel">
+      <p>El precio del tatuaje varía en función del tamaño y del diseño. Se envían presupuestos por mail,  y por teléfono..</p>
+    </div>
+    
+    <button class="accordion">¿QUÉ CUIDADOS TENGO QUE TENER LUEGO DE HACERME UN TATTOO?</button>
+    <div class="panel">
+      <p>Mantener el vendaje durante 4 horas
+        (de lo contrario el tatuaje se adherirá a la ropa y al despegarlo extraerá el pigmento).
+        Luego de las 4 horas, sacar el vendaje y lavar con agua y jabón neutro. 
+        Colocar crema 4 veces por día. (NO USAR PRODUCTOS A BASE DE PETROLEO NI VASELINA) 
+        Evitar el exceso de crema, sol, agua salada o con cloro . No mantener en agua demasiado tiempo mas que un remojo. 
+        No extraer las cáscaras y mantener el tatuaje alejado de la suciedad y grasitud. 
+        Tomará aproximadamente 4 semanas en cicatrizar. 
+        Usar la crema durante todo ese tiempo y un fuerte protector solar ayudará a mantener los colores vivos por  mucho mas tiempo. </p>
+    </div>
+    
+    <button class="accordion">¿ANTES DE TATUARME PUEDO BEBER ALCOHOL?</button>
+    <div class="panel">
+      <p> No, no puedes beber antes, ni inmediatamente después de tatuarte. Beber alcohol puede afectar en tu toma de decisiones, no provocará una disminución del dolor, aumentará el sangrado e influirá en el acabado del tatuaje y su cicatrización.</p>
+    </div>
+    <button class="accordion">¿TENGO QUE PEDIR TURNO?</button>
+    <div class="panel">
+      <p>En el caso de los piercings, no es necesario reservar turno, se hacen en el momento, y demora 10 minutos aproximadamente.
+        Para el caso de los tattoos, cuando se trate de diseños pequeños se realizan en el momento tambien (tratando de no venir sobre el horario de cierre del local), pero para diseños grandes es conveniente reservar un turno, para no correr el riesgo de venir hasta el local y que no haya ningun tatuador disponible. </p>
+    </div>
+    
+    <button class="accordion">¿QUÉ CUIDADOS DEBO MANTENER LUEGO DE HACERME UN PIERCING?</button>
+    <div class="panel">
+      <p>Lavar mínimo 3 veces al día con jabón neutro durante 6 meses.
+        Luego de lavarlo, enjuagarlo bien con agua fría y colocarle: TERRACORTIL/RIFOCINA (spray) / SOLUCION FISIOLOGICA.
+        - La primera semana 3 veces por día
+        - La segunda semana 2 veces por día
+        - La tercera semana 1 vez por día
+        - Continuar con los lavados hasta cumplir los 6 meses.
+        Disolver sal gruesa en agua caliente y colocar en los orificios con un hisopo, la cantidad de veces posibles durante el primer mes. NO COLOCAR alcohol, cremas, agua oxigenada, etc.</p>
+    </div>
+    
+    <button class="accordion">¿CÓMO DEBO HACER SI SOY MENOR DE 18 AÑOS?</button>
+    <div class="panel">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+    <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+          panel.style.display = "none";
+        } else {
+          panel.style.display = "block";
+        }
+      });
+    }
+    </script>
+    
   <!-- fin seccion -->
 
   <!--section portafolio-->
