@@ -210,11 +210,11 @@ body {font-family: "bold", Cambria, Cochin, Georgia, Times, 'Times New Roman', s
 
 
 .tab {
-  float: left;
+  /* float: left; */
   
   background-color: #f1f1f1;
-  width: 30%;
-  height: 360px;
+  /* width: 30%; */
+  min-height: 360px;
 }
 
 /* Style the buttons inside the tab */
@@ -251,16 +251,16 @@ body {font-family: "bold", Cambria, Cochin, Georgia, Times, 'Times New Roman', s
 
 /* Style the tab content */
 .tabcontent {
-  float: left;
+  /* float: left; */
  padding: 50px ;
   
-  width: 70%;
+  /* width: 70%; */
   border-left: none;
-  height: 410px;
+  min-height: 410px;
   color: rgb(107, 106, 106);
   font-weight: lighter;
   font-size: 12px;
-  padding-left: 50px;
+  /* padding-left: 50px; */
 }
 
 
