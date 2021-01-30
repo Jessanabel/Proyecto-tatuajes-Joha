@@ -852,6 +852,16 @@ h2{
   background-color: white;
   margin-top:-18px;
 }
+.title-section-cont {
+  text-align: center;
+  padding: 30px 10px;
+  width: 100%;
+  font-family: sans-serif;
+  color: #07080A;
+  background-color: white;
+  margin-top:-18px;
+  margin-bottom: 70px;;
+}
 
 .title-section-art {
   text-align: center;
