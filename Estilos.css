@@ -137,6 +137,9 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 .carousel-control.right {
 	background-image: none;
 }
+.carousel-indicators li{
+  border-bottom: none;
+}
 .carousel-control.left {
 	background-image: none;
 }
