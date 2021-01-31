@@ -21,7 +21,7 @@
     font-size: 18px;
     border: none;
     outline: none;
-    background-color: red;
+    background-color: rgb(255, 0, 98);
     color: white;
     cursor: pointer;
     padding: 15px;
@@ -179,7 +179,7 @@ letter-spacing: 2px;
   background-color: black;
 }
 .contenedor-index-about{
-   background-color: rgb(0, 0, 0); font-family: 'bold',sans-serif; font-weight: bold;
+   background-color: rgb(0, 0, 0); font-family: 'bold',sans-serif; font-weight: bold;position:relative;
 
 }
 .container-about{
@@ -246,59 +246,16 @@ margin-left: 5px;
   
   
 }
-.tab {
-  /* float: left; */
-  
-  background-color: #f1f1f1;
-  /* width: 30%; */
-  min-height: 360px;
-}
+
 
 /* Style the buttons inside the tab */
-.tab button {
-  display: block;
-  background-color: gray;
-  color: #333;
-  
-  width: 100%;
-  font-weight: bold;
-  outline: none;
-  text-align: left;
-  cursor: pointer;
-  transition: 0.3s;
-  
-    font-size: 14px;
-    padding: 15px 45px 15px 15px;
-    border-bottom: 1px solid #555;
-    
-}
+
+
 .conte-index-preg{
-  min-height:800px;padding:25px; margin-top:-50px; background-color: rgb(13, 13, 13); font-family: 'bold',sans-serif; font-weight: bold;
+  height:800px;padding:25px; margin-top:-50px; background-color: rgb(13, 13, 13); font-family: 'bold',sans-serif; font-weight: bold;
 }
 
 /* Change background color of buttons on hover */
-.tab button:hover {
-  background-color: #ddd;
-}
-
-/* Create an active/current "tab button" class */
-.tab button.active {
-  background-color: rgb(236, 234, 234);
-}
-
-/* Style the tab content */
-.tabcontent {
-  /* float: left; */
- padding: 50px ;
-  
-  /* width: 70%; */
-  border-left: none;
-  min-height: 410px;
-  color: rgb(107, 106, 106);
-  font-weight: lighter;
-  font-size: 12px;
-  /* padding-left: 50px; */
-}
 
 
   @media screen and (max-width: 768px) {
@@ -314,7 +271,12 @@ margin-left: 5px;
     
   }
 
-  
+  @media screen and (max-width: 768px) {
+    .contenedor-index-form {
+      height: 1000px;
+     
+    }
+  }
 
 
 @media screen and (max-width: 768px) {
@@ -378,6 +340,12 @@ margin-left: 5px;
   }
 }
 
+
+@media screen and (max-width: 768px) {
+  .contenedor-index-about {
+    height: 1296px;
+  }
+}
 .titulo{
   text-align: center;
   color:rgb(124, 117, 117);
@@ -627,7 +595,7 @@ padding-bottom: 20px;
   border: black; width: 100%;
 }
 .contenedor-index-gale{
-  background-color: rgb(0, 0, 0); font-family: 'bold',sans-serif; font-weight: bold;
+  background-color: #131313; font-family: 'bold',sans-serif; font-weight: bold; margin-top:200px;
 }
 /* Create four equal columns that sits next to each other */
 .column {
@@ -729,7 +697,7 @@ select {
    /*Contacto*/
   
   .contenedor-index-form{
-  width:100%;  height: 700px; margin-top:-50px; background-color: rgb(13, 13, 13); font-family: 'bold',sans-serif; font-weight: bold;
+  width:100%;  height: 500px; margin-top:-50px; background-color: rgb(0, 0, 0); font-family: 'bold',sans-serif; font-weight: bold; margin-bottom: 200px;
   }
   
    .formulario{
@@ -752,7 +720,7 @@ select {
 color:rgb(129, 127, 127);
 }
 .parrafo-footer{
-  color:rgb(165, 162, 162);color:rgb(122, 120, 120); font-size:18px; margin-left:10px;
+  color:rgb(224, 221, 221); font-size:18px; margin-left:10px;
 }
 .footer-title{
   font-family: 'Oswald',sans-serif;font-size: 30px; color:white;
@@ -774,10 +742,10 @@ color:rgb(129, 127, 127);
   margin-bottom: 30px;  padding-right: 100px; margin-left: 50px; 
 }
 .titulo-4{
-  padding:3px 0 2px 10px; border-left: 4px solid #d218b9; line-height: 1;font-weight: 700;    letter-spacing: 3px; font-size: 25px; margin-top:10px;
+  padding:3px 0 2px 10px; border-left: 4px solid #d218b9; line-height: 1;font-weight: bold;    letter-spacing: 3px; font-size: 30px; margin-top:10px; color:gray;
 }
 .title-5{
-  padding:3px 0 2px 10px;  border-left: 4px solid #d218b9; line-height: 1;font-weight: 700;    letter-spacing: 3px;font-size: 25px; margin-top:10px;
+  padding:3px 0 2px 10px;  border-left: 4px solid #d218b9; line-height: 1;font-weight: bold;    letter-spacing: 3px;font-size: 30px; margin-top:10px;color:gray;
 }
 
 .content {
@@ -896,49 +864,53 @@ h2{
   margin-top: 10px; margin-right:300px;
 }
 .titulo-2{
-  padding:3px 0 2px 10px;  margin-right:100px;  border-left: 4px solid #d218b9; line-height: 1;font-weight: 700;    letter-spacing: 3px; font-size: 30px;margin-top:10px;
+  padding:3px 0 2px 10px;  margin-right:100px;  border-left: 4px solid #d218b9; line-height: 1;font-weight: 700;    letter-spacing: 3px; font-size: 30px;margin-top:10px;color:gray;
 }
 .title2{
   
   font-family: 'Oswald',sans-serif; font-size: 30px; color:white;
 }
-.title-section {
+.title-section-gale {
   text-align: center;
   padding: 30px 10px;
-  width: 100%;
+  width: 50%;
   font-family: sans-serif;
   color: #07080A;
   background-color: white;
+position:relative;
+  margin-top:-10px;
 }
 .title-section-preg {
   text-align: center;
   padding: 30px 10px;
-  width: 100%;
+  width: 50%;
   font-family: sans-serif;
   color: #07080A;
   background-color: white;
-  margin-top:-18px;
+  margin-top:-10px;
+  margin-bottom: 50px;
 }
 .title-section-cont {
   text-align: center;
   padding: 30px 10px;
-  width: 100%;
+  width: 50%;
   font-family: sans-serif;
   color: #07080A;
   background-color: white;
-  margin-top:-18px;
+  margin-top:-10px;
   margin-bottom: 70px;;
 }
 
 .title-section-art {
   text-align: center;
   padding: 30px 10px;
-  width: 100%;
+  width: 50%;
   font-family: sans-serif;
   color: #07080A;
   background-color: white;
-  margin-top:-50px;
-  margin-bottom: 50px;
+  margin-top:40px;
+  
+  
 }
 
 .textpie{
