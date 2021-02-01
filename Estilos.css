@@ -976,3 +976,9 @@ h2 {
 }
 /*fin de pie*/
 
+.pre{
+  color:rgb(226, 222, 222); font-weight: bold; font-size: larger; font-style: oblique; font-family: Nunito,sans-serif; line-height: 2.2rem;
+}
+.ble{
+  color:#f8f5f6;  margin-left:250px; font-size: 18px;
+}
