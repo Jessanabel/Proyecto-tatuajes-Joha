@@ -52,42 +52,43 @@
 </head>
 
 <body class="body-home">
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-    <div class="container">
-      <a class="navbar-brand" href="#">KENDRA</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">KENDRA</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home<span class="sr-only"></span></a>
-          </li>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home<span class="sr-only"></span></a>
+            </li>
 
-          <li class="nav-item">
-            <a class="nav-link" href="#Nos">Nosotros</a>
-          </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Nos">Nosotros</a>
+            </li>
 
-          <li class="nav-item">
-            <a class="nav-link" href="#Gale">Galeria</a>
-          </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Gale">Galeria</a>
+            </li>
 
-          <li class="nav-item">
-            <a class="nav-link" href="#Preg">Preguntas </a>
-          </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Preg">Preguntas </a>
+            </li>
 
-          <li class="nav-item">
-            <a class="nav-link" href="#Con">Contacto</a>
-          </li>
-        </ul>
+            <li class="nav-item">
+              <a class="nav-link" href="#Con">Contacto</a>
+            </li>
+          </ul>
+        </div>
+
       </div>
 
-    </div>
-
-  </nav>
-
+    </nav>
+  </header>
   <!--comienzo carousel-->
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
@@ -141,7 +142,7 @@
     <br>
     <!--boton top -->
     <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-
+    <!--boton top -->
     <div class="row">
       <div class="col-md-6">
         <div class="container-about-old">
@@ -338,7 +339,7 @@
     </div>
   </div>
   <!-- fin seccion counter-->
- <!-- seccion preguntas-->
+  <!-- seccion preguntas-->
   <div data-bs-spy="scroll" id="Preg" class="contenedor-index-preg">
 
 
@@ -457,8 +458,8 @@
         <p class="pre">
           "Mi cuerpo es, de cierto modo, un diario. Como sucedía con los marineros donde cada tatuaje significaba algo,
           un período especial de tu vida que dejas marcado en tu piel,
-          ya sea con un cuchillo o con un tatuador profesional" </p> <br> <br> 
-          <cite class="ble">-Johnny Deep-</cite>
+          ya sea con un cuchillo o con un tatuador profesional" </p> <br> <br>
+        <cite class="ble">-Johnny Deep-</cite>
 
       </div>
 
@@ -468,7 +469,7 @@
 
 
   <br> <br> <b> </b>
-   <!-- fin seccion -->
+  <!-- fin seccion -->
   <!-- seccion contactame -->
   <div data-bs-spy="scroll" id="Con" class="contenedor-index-form">
 
@@ -531,13 +532,15 @@
         <div class="form-group">
           <input class="form-control" type="file" id="formFileMultiple" multiple>
         </div>
-
-        <button class="btn btn-primary" type="submit">Enviar</button>
+        <div class="row justify-content-center">
+          <button class="btn btn-primary " style="background-color:rgb(255, 0, 128); border-color:rgb(255, 0, 128) ;"
+            type="submit">Enviar</button>
+        </div>
       </form>
     </div>
   </div>
-   <!-- fin seccion -->
-    <!-- seccion pie de pagina -->
+  <!-- fin seccion -->
+  <!-- seccion pie de pagina -->
   <div class="sign-up">
     <footer id="footer">
       <div class="footer-top">
@@ -560,7 +563,7 @@
               </div>
 
             </div>
-           
+
             <div class="col-lg-3 col-md-6 footer-links" style="margin-top:20px; margin-right:120px;">
               <div class="titulo-4">Links </div>
               <ul style="color:rgb(122, 120, 120); font-size:18px;">
@@ -675,8 +678,7 @@
 
 
       buttonImage: '<img src="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/whatsapp.svg" />', //Button Image
-      //headerColor: 'crimson', //Custom header color
-      //backgroundColor: 'crimson', //Custom background button color
+      
       position: "right"
     });
   });
