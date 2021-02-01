@@ -357,14 +357,12 @@ body {
 /*card-text*/
 /*card-footer*/
 
-/*----------------seccion contador counter--------*/
-
 .counters1 {
   background: #000000;
   color: #fff;
   padding: 40px 20px;
   border-top: 3px lightskyblue solid;
-  height: 900px;
+  height: 400px;
 }
 
 .counters .container3 {
@@ -397,18 +395,61 @@ body {
     padding-bottom: 20px;
   }
 }
-.counter-u {
-  background: url("images/azul.jpg") no-repeat;
+.counter-up {
+  background: url("images/tato.jpg") no-repeat;
   min-height: 100vh;
   background-size: cover;
   background-attachment: fixed;
   padding: 0 50px;
   position: relative;
-  display: flex;
+ 
   align-items: center;
 }
-.counter-up {
-  background: url("images/tato.jpg") no-repeat;
+
+
+/*----------------seccion contador counter--------*/
+
+.counters1 {
+  background: #000000;
+  color: #fff;
+  padding: 40px 20px;
+  border-top: 3px lightskyblue solid;
+  height: 400px;
+}
+
+.counters .container3 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+  text-align: center;
+}
+
+.counters i {
+  color: lightskyblue;
+  margin-bottom: 5px;
+  margin-top: 50px;
+}
+
+.counters .counter1 {
+  font-size: 45px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  .counters .container3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .counters .container3 > div:nth-of-type(1),
+  .counters .container3 > div:nth-of-type(2) {
+    border-bottom: 1px lightskyblue solid;
+    padding-bottom: 20px;
+  }
+}
+
+.counter-u {
+  background: url("images/viaje.jpg") no-repeat;
   min-height: 80vh;
   background-size: cover;
   background-attachment: fixed;
@@ -934,3 +975,4 @@ h2 {
   height: 1px;
 }
 /*fin de pie*/
+
