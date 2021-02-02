@@ -55,6 +55,7 @@ h3 {
   font-size: 18px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+
 @media screen and (max-width: 480px) {
   .navbar-nav {
     text-align: right;
@@ -200,12 +201,7 @@ h3 {
 
 /*seccion preguntas*/
 
-* {
-  box-sizing: border-box;
-}
-body {
-  font-family: "bold", Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-}
+
 
 /* Style the tab */
 .active .accordion:hover {
@@ -342,16 +338,6 @@ body {
   margin-right: 40px;
   width: 20%;
 }
-/* .card-img-top{
-  height: 300px;
-  
-  width: 230px;
-} */
-
-/*card-body*/
-/*card-titulo*/
-/*card-text*/
-/*card-footer*/
 
 .counters1 {
   background: #000000;
